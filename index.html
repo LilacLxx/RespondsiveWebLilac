@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Prompt", sans-serif}
+.mySlides {display: none}
+</style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300&display=swap');
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large">แนะนำตัว</a>
+    <a href="#motto" class="w3-bar-item w3-button w3-padding-large w3-hide-small">คติประจำใจ</a>
+    <a href="#faculty" class="w3-bar-item w3-button w3-padding-large w3-hide-small">คณะที่สนใจ</a>
+    <a href="#favpic" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ผลงานที่ชอบ</a>
+    <a href="#other" class="w3-bar-item w3-button w3-padding-large w3-hide-small">อื่นๆ</a>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">แนะนำตัว</a>
+  <a href="#motto" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">คติประจำใจ</a>
+  <a href="#faculty" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">คณะที่สนใจ</a>
+  <a href="#favpic" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ผลงานที่ชอบ</a>
+  <a href="#other" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">อื่นๆ</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="assets/ghibli.gif" style="width:100% ;">
+    <div class="w3-display-bottommiddle w3-container w3-padding-32 w3-hide-small">
+      <h3><b>Welcome</b></h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="assets/kiki-anime.gif" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-padding-32 w3-hide-small">
+      <h3><b>Welcome</b></h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="assets/mononoke-princess-mononoke.gif" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-padding-32 w3-hide-small" >
+      <h3><b>Welcome</b></h3>  
+    </div>
+  </div>
+
+
+  <div class="w3-black" id="motto">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="home">
+    <div class="w3-justify w3-center">
+      <h3 class="w3-wide"><b>แนะนำตัว</b></h3>
+      <p><b>นางสาววรณัน บุหงาเกษมสุข ม.5/10 เลขที่ 32</b></p>   
+    </div>
+    <img src="assets/myself2.jpg" style="width:70%">
+   
+  </div>
+  </div>
+
+
+  <!-- The Band Section -->
+  <div class="w3-black" id="motto">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="motto">
+    <h2 class="w3-wide" ><b>คติประจำใจ</b></h2>
+    <p class="w3-justify w3-center">"ทุกๆอย่างมีจุดจบเสมอ ยกเว้นกล้วยที่มีจุดจบสองจุด"</p>
+    <div class="w3-row w3-padding-32" >
+      <div class="w3-center">
+       <img src="assets/banana.gif" class="w3-round w3-margin-bottom w3-center" style="width: 35%">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="faculty">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"><b>มหาลัยและคณะที่สนใจ</b></h2>
+
+      <ul class="w3-ul w3-border w3-white ">
+        <li class="w3-padding"> • คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์ </li>
+        <li class="w3-padding"> • คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="assets/kmutt.png" alt="KMUTT" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</b></p>
+            <p class="w3-opacity">King Mongkut's University of Technology Thonburi.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="assets/Kmitl.png" alt="KMITL" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</b></p>
+            <p class="w3-opacity">King Mongkut's Institute of Technology Ladkrabang.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="assets/chu.png" alt="CU" style="width:78.3%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>จุฬาลงกรณ์มหาวิทยาลัย</b></p>
+            <p class="w3-opacity">Chulalongkorn University.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+
+  <!-- The Contact Section -->
+  <div class="w3-black" id="favpic">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="favpic">
+    <h2 class="w3-wide"><b>ผลงานที่ชอบ</b></h2>
+    <p class="w3-justify w3-center"></p>
+    <div class="w3-row w3-padding-32" >
+      <div class="w3-center">
+       <img src="assets/marina.png" class="w3-round w3-margin-bottom w3-center" style="width:80%">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-black" id="other">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="other">
+    <h2 class="w3-wide" ><b>อื่นๆ</b></h2>
+    <p class="w3-justify w3-center">ผลงานวาดอื่นๆ</p>
+    <div class=" w3-display-container w3-center">
+      <img src="assets/art1.png" style="width:100% ;">
+    </div><br>
+    <div class="s w3-display-container w3-center">
+      <img src="assets/art2.png" style="width:100% ;">
+    </div><br>
+    <div class=" w3-display-container w3-center">
+      <img src="assets/art3.png" style="width:100% ;">
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
